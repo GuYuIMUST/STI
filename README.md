@@ -40,10 +40,11 @@ python eval.py
 
 To ensure the code can run, we provide versions of some libraries.
 
-- python-3.7.13
-- numpy-1.21.5
-- pytorch-1.21.1
-- pandas-1.3.5
+- apex-0.1
+- python-3.8.13
+- numpy-1.23.2
+- torch-1.8.1
+- pandas-1.5.3
 - opencv-python-4.8.1
 
 ## Acknowledgement 
