@@ -5,7 +5,7 @@
 Sorry, the paper is currently under review. Once the paper is published, we will release the code.
 ## Results
 
-### NAS-HBO
+### STI
 
 | model               | Accu.       | Sens. | Spec. | F1 Score | para.(M)    |
 | ------------------- | ----------- | ----- | ----- | -------- | ----------- |
