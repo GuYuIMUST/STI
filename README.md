@@ -51,7 +51,7 @@ To ensure the code can run, we provide versions of some libraries.
 
 If there are any missing citations, please contact us. It is an unintentional omission, and we will add the citations accordingly.
 
- **This code is based on the implementation of  [ST++](https://github.com/quark0/darts), [CISC-R](https://github.com/xiaomi-automl/FairDARTS), [Cutout](https://github.com/uoguelph-mlrg/Cutout)) and [SoftPool](https://github.com/alexandrosstergiou/SoftPool).**
+ **This code is based on the implementation of  [ST++](https://github.com/quark0/darts), [CISC-R](https://github.com/xiaomi-automl/FairDARTS), [Cutout](https://github.com/uoguelph-mlrg/Cutout) and [SoftPool](https://github.com/alexandrosstergiou/SoftPool).**
 
 ## Selected References
 
