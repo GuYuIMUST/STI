@@ -7,7 +7,7 @@ Sorry, the paper is currently under review. Once the paper is published, we will
 
 ### STI
 
-|                      ResNet50 and DeepLabv3+                       |
+ResNet50 and DeepLabv3+                       
 | Method              |mIoU-1/16(%) |mIoU-1/8(%)    |mIoU-1/4(%)     |
 | ------------------- | ----------- | ------------- | -------------- |
 | SupOnly             | 62.99       | 65.08         | 68.85          |
@@ -16,7 +16,7 @@ Sorry, the paper is currently under review. Once the paper is published, we will
 | ST++                | 72.6        | 74.4          | 75.4           |
 |**STI(ours)**        | **73.75**   | **75.98**     | **76.14**      |
 
-|                      ResNet101 and DeepLabv3+                       |
+ResNet101 and DeepLabv3+
 | Method              |mIoU-1/16(%) |mIoU-1/8(%)    |mIoU-1/4(%)     |
 | ------------------- | ----------- | ------------- | -------------- |
 | SupOnly             | 64.97       | 67.57         | 70.45          |
