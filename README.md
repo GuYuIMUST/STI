@@ -51,7 +51,7 @@ To ensure the code can run, we provide versions of some libraries.
 
 If there are any missing citations, please contact us. It is an unintentional omission, and we will add the citations accordingly.
 
- **This code is based on the implementation of  [ST++](https://github.com/quark0/darts) and [CISC-R](https://github.com/xiaomi-automl/FairDARTS).**
+ **This code is based on the implementation of  [ST++](https://github.com/quark0/darts), [CISC-R](https://github.com/xiaomi-automl/FairDARTS), [Cutout](https://github.com/uoguelph-mlrg/Cutout)) and [SoftPool](https://github.com/alexandrosstergiou/SoftPool).**
 
 ## Selected References
 
@@ -59,4 +59,6 @@ If there are any missing citations, please contact us. It is an unintentional om
 
 - Yang L, Zhuo W, Qi L, Shi Y, Gao Y.: St++: Make self-training work better for semi-supervised semantic segmentation. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 4268-4277 (2022).
 - Wu L, Fang L, He X, He M, Ma J, Zhong Z.: Querying Labeled for Unlabeled: Cross-Image Semantic Consistency Guided Semi-Supervised Semantic Segmentation. IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(7):8827-8844 (2023).
+- DeVries, Terrance. "Improved Regularization of Convolutional Neural Networks with Cutout." arxiv preprint arxiv:1708.04552 (2017).
+- Stergiou, A., Poppe, R., & Kalliatakis, G. Refining activation downsampling with SoftPool. In Proceedings of the IEEE/CVF international conference on computer vision, pp. 10357-10366 (2021).
 
