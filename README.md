@@ -16,21 +16,19 @@ Sorry, the paper is currently under review. Once the paper is published, we will
 | ST++                | 72.6        | 74.4          | 75.4           |
 |**STI(ours)**        | **73.75**   | **75.98**     | **76.14**      |
 
+|                      ResNet101 and DeepLabv3+                       |
+| Method              |mIoU-1/16(%) |mIoU-1/8(%)    |mIoU-1/4(%)     |
+| ------------------- | ----------- | ------------- | -------------- |
+| SupOnly             | 64.97       | 67.57         | 70.45          |
+| ESC                 | 69.1        | 72.4          | 74.5           |
+| DCC                 | 67.2        | 72.5          | 75.1           |
+| ST++                | 74.5        | 76.3          | 76.6           |
+|**STI(ours)**        | **75.51**   | **76.90**     | **76.98**      |
 
-### Verification results
 
-Due to limited experimental conditions, the same hyperparameters were used and we did not conduct particularly fine tuning. Therefore, the experimental results may be further improved.
-
-| Model  | Accu.  | Sens.  | Spec.  | F1 Score | para. |
-| ------ | ------ | ------ | ------ | -------- | ----- |
-| Fold-5 | 92.391 | 94.595 | 90.909 | 90.909   | 12.79 |
-| Fold-6 | 91.304 | 85.714 | 94.521 | 87.805   | 12.79 |
-| Fold-7 | 91.111 | 85.714 | 93.548 | 85.714   | 12.79 |
-| Fold-8 | 89.423 | 91.837 | 87.272 | 89.109   | 12.79 |
-| Fold-9 | 93.333 | 93.750 | 92.857 | 93.750   | 12.79 |
 
 ## Usage
-To run our code, you only need one GeForce RTX 4090(24G memory).
+To run our code, you only need one GeForce RTX 3090(24G memory).
 
 #### Preprocessing
 You need to download the LUNA16 dataset by yourself and adjust the corresponding paths.
