@@ -54,8 +54,6 @@ If there are any missing citations, please contact us. It is an unintentional om
 
 If there are any missing citations, please contact us. It is an unintentional omission, and we will add the citations accordingly.
 
-- W. Zhu, C. Liu, W. Fan, X. Xie, Deeplung: Deep 3d dual path nets for automated pulmonary nodule detection and classification,  2018 IEEE winter conference on applications of computer vision (WACV), IEEE2018, pp. 673-681.
-- H. Liu, K. Simonyan, Y. Yang, Darts: Differentiable architecture search, arXiv preprint arXiv:1806.09055, (2018).
-- Y. Xu, L. Xie, X. Zhang, X. Chen, G.-J. Qi, Q. Tian, H. Xiong, Pc-darts: Partial channel connections for memory-efficient architecture search, arXiv preprint arXiv:1907.05737, (2019).
-- H. Jiang, F. Shen, F. Gao, W. Han, Learning efficient, explainable and discriminative representations for pulmonary nodules classification, Pattern Recognition, 113 (2021) 107825.
+- Yang L, Zhuo W, Qi L, Shi Y, Gao Y.: St++: Make self-training work better for semi-supervised semantic segmentation. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 4268-4277 (2022).
+- Wu L, Fang L, He X, He M, Ma J, Zhong Z.: Querying Labeled for Unlabeled: Cross-Image Semantic Consistency Guided Semi-Supervised Semantic Segmentation. IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(7):8827-8844 (2023).
 
