@@ -31,8 +31,10 @@ ResNet101 and DeepLabv3+
 To run our code, you only need one GeForce RTX 3090(24G memory).
 
 #### Train and Eval
-python train.py.
-python eval.py.
+```bash 
+python train.py
+python eval.py
+```
 
 ### Requirements
 
