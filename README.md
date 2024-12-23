@@ -8,7 +8,6 @@ Sorry, the paper is currently under review. Once the paper is published, we will
 ### STI
 
 |                     |              ResNet50 and DeepLabv3+         |
-| ------------------- | -------------------------------------------- |
 | Method              |mIoU-1/16(%) |mIoU-1/8(%)    |mIoU-1/4(%)     |
 | ------------------- | ----------- | ------------- | -------------- |
 | SupOnly             | 62.99       | 65.08         | 68.85          |
