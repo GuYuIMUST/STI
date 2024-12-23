@@ -30,28 +30,9 @@ ResNet101 and DeepLabv3+
 ## Usage
 To run our code, you only need one GeForce RTX 3090(24G memory).
 
-#### Preprocessing
-You need to download the LUNA16 dataset by yourself and adjust the corresponding paths.
-```
-prepare.py \\
-```
-```
-nodclsgbt.py \\
-```
-#### Search on the LUNA16 dataset
-
-The number of pre-training epochs W in the program is the number of epochs used to solely train W. The epoch when the validation set first reaches its optimal value needs to be determined again if you plan to use your own dataset, as detailed in section 4.1 of the paper.
-
-```
-train_search.py \\
-```
-#### Evaluation on the LUNA16 dataset
-
-Some randomness is introduced in certain aspects of the code, such as partial channel connections, to allow for fluctuations in results. Due to the 37-hour training time required for the model, we did not finely tune the hyperparameters, and thus the experimental results we present may not represent the optimal values.
-
-```
-python train_3D_continuation.py \\
-```
+#### Train and Eval
+python train.py
+python eval.py
 
 ### Requirements
 
@@ -67,7 +48,7 @@ To ensure the code can run, we provide versions of some libraries.
 
 If there are any missing citations, please contact us. It is an unintentional omission, and we will add the citations accordingly.
 
- **This code is based on the implementation of  [DARTS](https://github.com/quark0/darts)，[Fair-DARTS](https://github.com/xiaomi-automl/FairDARTS)，[PC-DARTS](https://github.com/yuhuixu1993/PC-DARTS)，[ProxylessNAS](https://github.com/MIT-HAN-LAB/ProxylessNAS)，[NAS-Lung](https://github.com/fei-hdu/NAS-Lung)，[DeepLung](https://github.com/uci-cbcl/DeepLung), [MobileNetV2](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet), [LayerCAM](https://github.com/PengtaoJiang/LayerCAM-jittor) and [Torch-cam](https://github.com/frgfm/torch-cam).**
+ **This code is based on the implementation of  [ST++](https://github.com/quark0/darts) and [CISC-R](https://github.com/xiaomi-automl/FairDARTS).**
 
 ## Selected References
 
@@ -77,13 +58,4 @@ If there are any missing citations, please contact us. It is an unintentional om
 - H. Liu, K. Simonyan, Y. Yang, Darts: Differentiable architecture search, arXiv preprint arXiv:1806.09055, (2018).
 - Y. Xu, L. Xie, X. Zhang, X. Chen, G.-J. Qi, Q. Tian, H. Xiong, Pc-darts: Partial channel connections for memory-efficient architecture search, arXiv preprint arXiv:1907.05737, (2019).
 - H. Jiang, F. Shen, F. Gao, W. Han, Learning efficient, explainable and discriminative representations for pulmonary nodules classification, Pattern Recognition, 113 (2021) 107825.
-- X. Chu, T. Zhou, B. Zhang, J. Li, Fair darts: Eliminating unfair advantages in differentiable architecture search,  European conference on computer vision, Springer2020, pp. 465-480.
-- M. Sandler, A. Howard, M. Zhu, A. Zhmoginov, L.-C. Chen, Mobilenetv2: Inverted residuals and linear bottlenecks,  Proceedings of the IEEE conference on computer vision and pattern recognition2018, pp. 4510-4520.
 
-- S.G. Armato III, G. McLennan, L. Bidaut, M.F. McNitt‐Gray, C.R. Meyer, A.P. Reeves, B. Zhao, D.R. Aberle, C.I. Henschke, E.A. Hoffman, The lung image database consortium (LIDC) and image database resource initiative (IDRI): a completed reference database of lung nodules on CT scans, Medical physics, 38 (2011) 915-931.
-
-- K. Kuan, M. Ravaut, G. Manek, H. Chen, J. Lin, B. Nazir, C. Chen, T.C. Howe, Z. Zeng, V. Chandrasekhar, Deep learning for lung cancer detection: tackling the kaggle data science bowl 2017 challenge, arXiv preprint arXiv:1705.09435, (2017).
-
-- P.-T. Jiang, C.-B. Zhang, Q. Hou, M.-M. Cheng, Y. Wei, Layercam: Exploring hierarchical class activation maps for localization, IEEE Transactions on Image Processing, 30 (2021) 5875-5888.
-
-- Cai, H., Zhu, L., & Han, S. (2018). Proxylessnas: Direct neural architecture search on target task and hardware. arXiv preprint arXiv:1812.00332.
