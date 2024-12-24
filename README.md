@@ -2,7 +2,7 @@
 ## Introduction
 **Enhancing Semi-Supervised Semantic Segmentation via Image Search and Advanced Pooling Strategies** 
 
-Sorry, the paper is currently under review. Once the paper is published, we will release the code.
+Sorry, the paper is currently under review. Once the paper is published, we will release the code immediately.
 ## Results
 
 ### STI
