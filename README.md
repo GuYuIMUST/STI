@@ -28,7 +28,7 @@ ResNet101 and DeepLabv3+
 
 
 ## Usage
-To run our code, you only need one GeForce RTX 3090(24G memory).
+To run our code, you may need one GeForce RTX 3090(24G memory).
 
 #### Train and Eval
 ```bash 
