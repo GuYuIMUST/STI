@@ -54,6 +54,7 @@ ResNet101 and DeepLabv3+
 To run our code, you may need one GeForce RTX 3090(24G memory).
 
 #### Train and Eval
+You can download cls_txt file, spilts file and pretrained file from [CISC-R](https://github.com/xiaomi-automl/FairDARTS)
 ```bash 
 python train.py
 python eval.py
