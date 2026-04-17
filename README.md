@@ -1,7 +1,7 @@
 # STI
 ## Introduction
 **Enhancing Semi-Supervised Semantic Segmentation via Image Search and Advanced Pooling Strategies** 
-
+ShuaiKangYang, Yu Gu, Lidong Yang, et al. STI: Enhancing Semisupervised Semantic Segmentation via Image Search and Advanced Pooling Strategies. Concurrency and Computation: Practice and Experience, 2026, 38(8): e70698. https://doi.org/10.1002/cpe.70698.
 
 ## Results
 
